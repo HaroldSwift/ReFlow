@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--SOLARIZED_DARK-->
+
+    <color name="s_yellow">#b58900</color>
+    <color name="s_orange">#cb4b16</color>
+    <color name="s_red">#dc322f</color>
+    <color name="s_magenta">#d33682</color>
+    <color name="s_violet">#6c71c4</color>
+    <color name="s_blue">#268bd2</color>
+    <color name="s_cyan">#2aa198</color>
+    <color name="s_green">#859900</color>
+
+    <color name="s_base03">#002b36</color>
+    <color name="s_base02">#073642</color>
+    <color name="s_base01">#586e75</color>
+    <color name="s_base00">#657b83</color>
+    <color name="s_base0">#839496</color>
+    <color name="s_base1">#93a1a1</color>
+    <color name="s_base2">#eee8d5</color>
+    <color name="s_base3">#fdf6e3</color>
+
+
+    <!--SOLARIZED_LIGHT-->
+
+    <color name="sl_yellow">#b58900</color>
+    <color name="sl_orange">#cb4b16</color>
+    <color name="sl_red">#dc322f</color>
+    <color name="sl_magenta">#d33682</color>
+    <color name="sl_violet">#6c71c4</color>
+    <color name="sl_blue">#268bd2</color>
+    <color name="sl_cyan">#2aa198</color>
+    <color name="sl_green">#859900</color>
+
+    <color name="sl_base03">#fdf6e3</color>
+    <color name="sl_base02">#eee8d5</color>
+    <color name="sl_base01">#93a1a1</color>
+    <color name="sl_base00">#839496</color>
+    <color name="sl_base0">#657b83</color>
+    <color name="sl_base1">#586e75</color>
+    <color name="sl_base2">#073642</color>
+    <color name="sl_base3">#002b36</color>
+
+
+    <!--TOMORROW_NIGHT-->
+
+    <color name="tn_Background">#1d1f21</color>
+    <color name="tn_CurrentLine">#282a2e</color>
+    <color name="tn_Selection">#373b41</color>
+    <color name="tn_Foreground">#c5c8c6</color>
+    <color name="tn_Comment">#969896</color>
+    <color name="tn_Red">#cc6666</color>
+    <color name="tn_Orange">#de935f</color>
+    <color name="tn_Yellow">#f0c674</color>
+    <color name="tn_Green">#b5bd68</color>
+    <color name="tn_Aqua">#8abeb7</color>
+    <color name="tn_Blue">#81a2be</color>
+    <color name="tn_Purple">#b294bb</color>
+
+
+    <!--TOMORROW-->
+
+    <color name="t_Background">#ffffff</color>
+    <color name="t_CurrentLine">#efefef</color>
+    <color name="t_Selection">#d6d6d6</color>
+    <color name="t_Foreground">#4d4d4c</color>
+    <color name="t_Comment">#8e908c</color>
+    <color name="t_Red">#c82829</color>
+    <color name="t_Orange">#f5871f</color>
+    <color name="t_Yellow">#eab700</color>
+    <color name="t_Green">#718c00</color>
+    <color name="t_Aqua">#3e999f</color>
+    <color name="t_Blue">#4271ae</color>
+    <color name="t_Purple">#8959a8</color>
+
+
+    <!--TOMORROW_NIGHT_EIGHTIES-->
+
+    <color name="tne_Background">#2d2d2d</color>
+    <color name="tne_CurrentLine">#393939</color>
+    <color name="tne_Selection">#515151</color>
+    <color name="tne_Foreground">#cccccc</color>
+    <color name="tne_Comment">#999999</color>
+    <color name="tne_Red">#f2777a</color>
+    <color name="tne_Orange">#f99157</color>
+    <color name="tne_Yellow">#ffcc66</color>
+    <color name="tne_Green">#99cc99</color>
+    <color name="tne_Aqua">#66cccc</color>
+    <color name="tne_Blue">#6699cc</color>
+    <color name="tne_Purple">#cc99cc</color>
+
+
+    <!--TOMORROW_NIGHT_BLUE-->
+
+    <color name="tnb_Background">#002451</color>
+    <color name="tnb_CurrentLine">#00346e</color>
+    <color name="tnb_Selection">#003f8e</color>
+    <color name="tnb_Foreground">#ffffff</color>
+    <color name="tnb_Comment">#7285b7</color>
+    <color name="tnb_Red">#ff9da4</color>
+    <color name="tnb_Orange">#ffc58f</color>
+    <color name="tnb_Yellow">#ffeead</color>
+    <color name="tnb_Green">#d1f1a9</color>
+    <color name="tnb_Aqua">#99ffff</color>
+    <color name="tnb_Blue">#bbdaff</color>
+    <color name="tnb_Purple">#ebbbff</color>
+
+
+    <!--TOMORROW_NIGHT_BRIGHT-->
+
+    <color name="tnbr_Background">#000000</color>
+    <color name="tnbr_CurrentLine">#2a2a2a</color>
+    <color name="tnbr_Selection">#424242</color>
+    <color name="tnbr_Foreground">#eaeaea</color>
+    <color name="tnbr_Comment">#969896</color>
+    <color name="tnbr_Red">#d54e53</color>
+    <color name="tnbr_Orange">#e78c45</color>
+    <color name="tnbr_Yellow">#e7c547</color>
+    <color name="tnbr_Green">#b9ca4a</color>
+    <color name="tnbr_Aqua">#70c0b1</color>
+    <color name="tnbr_Blue">#7aa6da</color>
+    <color name="tnbr_Purple">#c397d8</color>
+
+
+</resources>
