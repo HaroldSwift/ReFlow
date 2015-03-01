@@ -30,12 +30,7 @@ public class MainActivity extends FragmentActivity {
         menu.setMenu(R.layout.slidingmenu_main);
 
 
-        RedditAccount.login(this, "hfatih", "asfasdad", new FutureCallback<String>() {
-            @Override
-            public void onCompleted(Exception e, String result) {
 
-            }
-        });
 	}
 
 
