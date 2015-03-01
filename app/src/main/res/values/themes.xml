@@ -5,4 +5,32 @@
 
     </style>
 
+
+
+
+
+    <style name="RF_SOLARIZED_DARK" parent="RF.DEFAULT">
+
+    </style>
+
+    <style name="RF_SOLARIZED_LIGHT" parent="RF.DEFAULT">
+
+    </style>
+
+    <style name="RF_TOMORROW_NIGHT" parent="RF.DEFAULT">
+
+    </style>
+
+    <style name="RF_TOMORROW_NIGHT_EIGHTIES" parent="RF.DEFAULT">
+
+    </style>
+
+    <style name="RF_TOMORROW_NIGHT_BLUE" parent="RF.DEFAULT">
+
+    </style>
+
+    <style name="TOMORROW_NIGHT_BRIGHT" parent="RF.DEFAULT">
+
+    </style>
+
 </resources>

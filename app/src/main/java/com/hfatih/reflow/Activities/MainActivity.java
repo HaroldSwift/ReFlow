@@ -6,8 +6,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.hfatih.reflow.Models.RedditAccount;
 import com.hfatih.reflow.R;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
+import com.koushikdutta.async.future.FutureCallback;
 
 public class MainActivity extends FragmentActivity {
 
@@ -26,6 +28,14 @@ public class MainActivity extends FragmentActivity {
         menu.setFadeDegree(0.35f);
         menu.attachToActivity(this, SlidingMenu.SLIDING_CONTENT);
         menu.setMenu(R.layout.slidingmenu_main);
+
+
+        RedditAccount.login(this, "hfatih", "hfa:11q.", new FutureCallback<String>() {
+            @Override
+            public void onCompleted(Exception e, String result) {
+
+            }
+        });
 	}
 
 

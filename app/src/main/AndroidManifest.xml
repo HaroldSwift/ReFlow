@@ -2,11 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.hfatih.reflow" >
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
-        android:theme="@style/RF.DEFAULT" >
+        android:theme="@style/RF.DEFAULT"
+        android:name=".ReFlow">
         <activity
             android:name=".Activities.MainActivity"
             android:label="@string/app_name"
