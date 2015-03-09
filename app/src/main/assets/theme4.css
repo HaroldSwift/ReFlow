@@ -1,0 +1,106 @@
+/* Base styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body { 
+    font-size: medium;
+    font-family: 'FlowContent', sans-serif;
+    line-height: 150%;
+    background: #f0f0f0;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'FlowHeading', sans-serif;
+}
+
+h1 {
+  line-height: 135%;
+  font-weight:bolder;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h5 {
+  font-weight:lighter;
+}
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+img {
+  border: thin solid #b3b3b3;
+  height:auto;
+  display: block;
+  max-width:95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrap {
+  border: 0px solid #456;
+  clear: both;
+}
+
+h1 {
+  color: #000000;
+}
+
+h2, h3 {
+  color: #6A797A;
+  font-weight: bold;
+}
+
+h4, h6, h5 {
+  color: #6A797A;
+}
+
+h5 {
+    margin-bottom:0.2em;
+}
+
+a:link {color:#2689AD;}
+
+favi {
+  float: left;
+}
+
+#acontent p {
+    margin-top:1.5em;
+    margin-bottom:1.5em;
+}
+
+#article {
+    background: #f0f0f0;
+    padding:5px 5px 5px 5px; 
+}
+
+#aentry {
+  background: #f0f0f0;
+  padding: 5px 5px 5px 5px;
+}
+
+#ahead {
+    padding-bottom: 15px;
+    border-bottom:1px inset #808080;
+}
+
+#ahead h4 {
+    font-weight: normal;
+    line-height: 135%;
+}

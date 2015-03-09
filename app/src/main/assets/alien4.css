@@ -1,0 +1,124 @@
+/* Base styles*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body { 
+    font-size: small;
+    line-height: 100%;
+    background: #f0f0f0;
+    color: #111111;
+}
+
+h1, h2 {
+  font-weight:100;
+  line-height: 130%;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: large;
+}
+
+
+/**** Content ****/
+
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+
+img {
+  vertical-align:middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}	
+
+.alien img {
+  vertical-align:middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}	
+
+
+/**** Masonry CSS ****/
+
+.wrap {
+  border: 0px solid #456;
+  clear: both;
+}
+
+h1, h3 {
+  color: #586e75;
+  font-weight: bold;
+}
+
+h2 {
+  color: #859900;
+  font-weight: bold;
+}
+
+
+
+h4, h6, h5 {
+  color: #586e75;
+}
+
+p {
+  color: #657b83;
+  margin-top:0.5em;
+}
+
+h5 {
+    margin-bottom:0.2em;
+}
+
+a:link {color:#268bd2;}
+
+favi {
+  float: left;
+}
+
+#acontent p {
+    margin-top:1.5em;
+    font-size: medium;
+    line-height: 125%;
+    margin-bottom:1.5em;
+    color: #f0f0f0;
+}
+
+#article {
+    background: #f0f0f0;
+    padding:5px 5px 5px 5px; 
+}
+
+#aentry {
+  background: #f0f0f0;
+  padding: 20px 20px 20px 20px;
+}
+
+#ahead {
+    border-bottom:5px inset #eee8d5;
+}
+
+#ahead h4 {
+    font-weight: normal;
+    line-height: 135%;
+}

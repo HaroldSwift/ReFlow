@@ -1,7 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<fragment xmlns:android="http://schemas.android.com/apk/res/android"
-    android:name="com.hfatih.reflow.Fragments.SampleListFragment"
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent">
 
-</fragment>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/relativelayout_slidingmenu_actionbar"
+        android:background="@color/def_darkgray">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="@dimen/mediumMargin"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/imageview_slidingmenu_cardswitch"
+            android:text="@string/reflow"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/settings_rf_dark"
+            android:padding="@dimen/mediumMargin"
+            android:id="@+id/imageview_slidingmenu_settings"
+            android:layout_alignParentRight="true"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/mediumMargin"
+            android:src="@drawable/theme_rf_dark"
+            android:id="@+id/imageview_slidingmenu_theme"
+            android:layout_toLeftOf="@+id/imageview_slidingmenu_settings"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/mediumMargin"
+            android:src="@drawable/uimode_rf_dark"
+            android:id="@+id/imageview_slidingmenu_cardswitch"
+            android:layout_toLeftOf="@+id/imageview_slidingmenu_theme"
+            />
+
+        </RelativeLayout>
+
+    <fragment
+        android:name="com.hfatih.reflow.Fragments.SlidingMenuFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/asdasdasd"
+        android:layout_below="@+id/relativelayout_slidingmenu_actionbar">
+
+    </fragment>
+
+    </RelativeLayout>

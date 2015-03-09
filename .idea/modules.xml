@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ReFlow.iml" filepath="$PROJECT_DIR$/ReFlow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReflowMaster.iml" filepath="$PROJECT_DIR$/ReflowMaster.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/redditLib/redditLib.iml" filepath="$PROJECT_DIR$/redditLib/redditLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/slidingmenu/slidingmenu.iml" filepath="$PROJECT_DIR$/slidingmenu/slidingmenu.iml" />

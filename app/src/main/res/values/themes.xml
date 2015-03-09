@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="RF.DEFAULT" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="RF.BASE" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/RF.BASE.ACTIONBAR</item>
+        <item name="android:actionBarSize">48dip</item>item>
+        <item name="actionBarSize">48dip</item>item>
+    </style>
 
+
+
+    <style name="RF.DEFAULT" parent="RF.BASE">
+        <item name="android:actionBarStyle">@style/RF.DEFAULT.ACTIONBAR</item>
     </style>
 
 
@@ -31,6 +39,18 @@
 
     <style name="TOMORROW_NIGHT_BRIGHT" parent="RF.DEFAULT">
 
+    </style>
+
+
+
+
+
+
+    <style name="RF.BASE.ACTIONBAR" parent="RF.BASE" >
+    </style>
+
+    <style name="RF.DEFAULT.ACTIONBAR" parent="RF.BASE.ACTIONBAR" >
+        <item name="android:background">@color/def_darkgray</item>
     </style>
 
 </resources>
